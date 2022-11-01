@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 
-for i in range(99):
-    if i % 3 == 0 and i % 5 == 0:
-        print("fizzbuzz")
-        continue
-    elif i % 3 == 0:
-        print("fizz")
-        continue
-    elif i % 5 == 0:
-        print("buzz")
-        continue
-    print(i)
+for i in range(1,101):
+
+    output = ''
+    if i % 3 == 0:
+        output += 'fizz'
+
+    if i % 5 == 0:
+        output += 'buzz'
+
+    if output == '':
+        output = i
+
+    print (output)
+
 
