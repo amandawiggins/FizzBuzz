@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 for i in range(1,101):
-
     output = ''
+
     if i % 3 == 0:
         output += 'fizz'
 
@@ -13,5 +13,3 @@ for i in range(1,101):
         output = i
 
     print (output)
-
-
