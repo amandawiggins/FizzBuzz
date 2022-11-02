@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-for i in range(1,101):
+for i in range(1, 101):
     output = ''
 
     if i % 3 == 0:
@@ -12,4 +12,4 @@ for i in range(1,101):
     if output == '':
         output = i
 
-    print (output)
+    print(output)
