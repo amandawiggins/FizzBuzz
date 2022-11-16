@@ -1,4 +1,3 @@
-
 FROM python:3.11-alpine
 
 COPY fizzbuzz.py /fizzbuzz/
