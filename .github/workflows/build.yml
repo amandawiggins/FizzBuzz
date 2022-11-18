@@ -3,7 +3,7 @@ on:
    branches: [main]
 
 jobs:
-  run-ons: [self-hosted, linux]
+  run-ons: [self-hosted,linux]
 
 -name: Fizzbuzz
 run: FizzBuzz
