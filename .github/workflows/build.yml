@@ -1,1 +1,9 @@
-on: [push]
+on:
+ push:
+   branches: [main]
+
+jobs:
+  run-ons: [self-hosted, linux]
+
+-name: Fizzbuzz
+run: FizzBuzz
