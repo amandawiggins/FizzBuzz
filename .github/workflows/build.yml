@@ -6,5 +6,4 @@ jobs:
   build:
     runs-on: [ubuntu-latest]
     steps:
-      - run: pwd
-      - run: docker build python
+      - run: docker build -f python
