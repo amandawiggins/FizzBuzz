@@ -6,4 +6,5 @@ jobs:
   build:
     runs-on: [ubuntu-latest]
     steps:
-      - run: docker build -f python
+      - uses: actions/checkout@v3
+        run: docker build python
