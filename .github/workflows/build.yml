@@ -23,6 +23,6 @@ jobs:
     steps:
       - uses: docker/build-push-action@v3
         with:
-          context: python/Dockerfile
+          context: .
           push: true
           tags: python:latest
