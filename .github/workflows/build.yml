@@ -22,4 +22,4 @@ jobs:
           context: python
           file: python/Dockerfile
           push: true
-          tags: python:latest
+          tags: ghcr.io/amandawiggins/fizzbuzz:python
