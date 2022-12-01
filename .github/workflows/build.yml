@@ -19,7 +19,7 @@ jobs:
       - name: docker push to ghcr.io
         uses: docker/build-push-action@v3
         with:
-          context: .
+          context: python
           file: python/Dockerfile
           push: true
           tags: python:latest
